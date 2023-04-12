@@ -41,6 +41,7 @@ function App() {
   return (
     <>
       <Container>
+        <Title>Phonebook</Title>
         <ContactsForm addNewContact={handleAddNewContact} />
       </Container>
       <Container>
